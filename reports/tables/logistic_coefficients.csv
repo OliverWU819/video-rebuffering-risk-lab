@@ -1,0 +1,11 @@
+feature,standardized_coefficient
+cum_rebuf,0.479306
+buffer,-0.404970
+cwnd,-0.075893
+ssim_index,-0.067439
+in_flight,-0.051348
+min_rtt,-0.032900
+size,0.017293
+rtt,0.013629
+delivery_rate,0.006029
+

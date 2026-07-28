@@ -1,0 +1,53 @@
+# Large or generated data
+data/raw/**
+data/interim/**
+data/processed/**
+!data/raw/.gitkeep
+!data/interim/.gitkeep
+!data/processed/.gitkeep
+
+# Trained artifacts and local exports
+*.joblib
+*.pkl
+*.pickle
+*.parquet
+*.csv
+*.tar.gz
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.python-version
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE, OS and local application state
+.DS_Store
+.idea/
+.vscode/
+anaconda_projects/
+
+# Local-only learning notes and superseded planning files
+docs/*_CN.md
+docs/PROJECT_PLAN.md
+docs/DOMAIN_MAP.md
+docs/TONIGHT_CHECKLIST.md
+docs/WEEKLY_REFLECTION.md
+docs/Video_Rebuffering_Risk_Lab_Workflow_and_Handoff.md
+docs/RESEARCH_REPORT_GUIDE_*.md
+OPEN_ME_FIRST.txt
+PROJECT_STRUCTURE.txt
+tests/
+notebooks/01_eda.ipynb
+
+# Temporary outputs, while retaining curated portfolio results
+reports/figures/*
+reports/tables/*
+!reports/figures/ap_comparison.png
+!reports/figures/standardized_coefficients.png
+!reports/tables/model_results.csv
+!reports/tables/logistic_coefficients.csv
+
